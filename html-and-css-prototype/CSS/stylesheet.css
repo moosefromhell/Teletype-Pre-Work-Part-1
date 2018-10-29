@@ -7,6 +7,7 @@
 
 body {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 12px;
 	color: #424242;
 	line-height: 1.4;
 }
@@ -40,3 +41,134 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.josh-container {
+	width: 250px;
+	margin: auto;
+
+}
+
+.project-fund-request {
+	height: 50px;
+	position: relative;
+	background-color: #424242;
+	color: white;
+	border-radius: 2.5px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.project-fund-request:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 85px;
+    width: 0;
+    height: 0;
+    border-top: solid 5px #424242;
+    border-left: solid 5px transparent;
+    border-right: solid 5px transparent;
+}
+
+.progress-bar {
+		width: 100%;
+		margin-top: 10px;
+		border: 1px solid #eaeaea;
+}
+
+.completed {
+	width: 75%;
+	height: 10px;
+	background-color: #EF5F3C;
+}
+
+.details {
+	border-left: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+	padding: 15px 15px 15px 15px;
+}
+
+.details p {
+	/* margin-bottom: 8px;  */
+	margin-bottom: 10px;
+	/* border: 1px solid #eaeaea; */
+}
+
+.orange {
+	color: #EF5F3C;
+}
+
+.blue {
+	color: #20A1D4;
+}
+
+.donation-amount {
+	width: 50px;
+}
+
+.currencyinput {
+    border: 0 inset #ccc;
+		font-size: 14px;
+}
+.currencyinput input {
+    border: 0;
+		font-size: 14px;
+		/* width: 100%; */
+}
+
+.donation-box {
+	border: 1px solid #eaeaea;
+	height: 50px;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 15px 5px 15px 5px;
+	width: 46%;
+	text-align: center;
+}
+
+.give-btn {
+	float: right;
+	height: 50px;
+	padding: 5px 18px 5px 18px;
+	background-color: #1CBC2C;
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+	color: white;
+	font-size: 14px;
+	width: 46%;
+}
+
+.why-give50 {
+	margin-top: 10px;
+}
+
+.save-for-later {
+	background-color: white;
+	height: 35px;
+	padding: 5px 18px 5px 18px;
+	border: 1px solid #eaeaea;
+	border-bottom-width: 2px;
+	border-radius: 3px;
+	color: #777;
+	font-size: 12px;
+	width: 46%;
+}
+
+
+.tell-your-friend {
+	float: right;
+	background-color: white;
+	height: 35px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #eaeaea;
+	border-bottom-width: 2px;
+	border-radius: 3px;
+	color: #777;
+	font-size: 12px;
+	width: 46%;
+}
+
+.actions {
+	margin-top: 12px;
+}
